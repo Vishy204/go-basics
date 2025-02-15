@@ -23,6 +23,10 @@ func main() {
 
 	// ... do something awesome with that gathered data!
 
+	admin := user.NewAdmin("email123", "1234")
+
+	admin.User.SploutputUserDetails()
+
 	appUser.DelNames()
 	appUser.SploutputUserDetails()
 
